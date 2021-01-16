@@ -42,6 +42,7 @@ class MainActivity : AppCompatActivity() {
             Log.e("Chec 4", checkBox4.text.toString())
             Log.e("Bilinen Diller", diller.toString())
             Log.e("Seçilen Takim", takim)
+            //log eklendi
         }
 
         rb_Fen.setOnCheckedChangeListener { buttonView, isChecked ->
